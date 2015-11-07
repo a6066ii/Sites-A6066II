@@ -66,55 +66,53 @@
   <canvas id="background"></canvas>
 
   <div class="row">
-    <video id="video" width="1280" height="720"  autoplay loop>
-      <source src="clips/Terrene.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+      <video id="video" autoplay loop width="1280" height="720" >
+          <source src="clips/Terrene.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
 
-    <canvas id="forground" width="1280" height="720"></canvas>
-    <script>
-      var canvas = document.getElementById("forground");
-      var context = canvas.getContext("2d");
+      <canvas id="forground" width="1280" height="720"></canvas>
+      <script>
+          var canvas = document.getElementById("forground");
+          var context = canvas.getContext("2d");
 
-      context.font = "60px serif";
-      // stroke color
-      context.strokeStyle = "black";
-      context.strokeText("a6066ii", 40, 50);
-      //filled text
-      context.font = "24px Arial";
-      context.fillStyle = "black";
-      context.fillText("www.a6066ii.com",50,80);
-    </script>
-  </div>
-  
-  <div class="row">
-  <div id="navigation">
+          context.font = "60px serif";
+          // stroke color
+          context.strokeStyle = "black";
+          context.strokeText("a6066ii", 40, 50);
+          //filled text
+          context.font = "24px Arial";
+          context.fillStyle = "black";
+          context.fillText("www.a6066ii.com", 50, 80);
+      </script>
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="./index.html">A6066II</a>
-          </div>
-          <div>
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Toys</a></li>
-              <li><a href="#">Us and Friends</a></li>
-              <li><a href="#">Whats Happining</a></li> 
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div id="navigation">
 
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <a class="navbar-brand" href="./index.html">A6066II</a>
+                  </div>
+                  <div>
+                      <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Toys</a></li>
+                          <li><a href="#">Us and Friends</a></li>
+                          <li><a href="#">Whats Happining</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+
+      </div>
+
+      <div class="text-center">
+          <h3 style="font-family:serif">A6066II</h3>
+
+          <p><em>Where education is THE Game!</em></p>
+
+          <p>We have enganging educational toys just for you...</p>
+      </div>
   </div>
-  </div>
-  
-  <div class="row">
-    <div class="text-center">
-      <h3 style="font-family:serif">A6066II</h3>
-      <p><em>Where education is THE Game!</em></p>
-      <p>We have enganging educational toys just for you...</p>
-    </div>
-  </div>
-  
+
 </body>
 </html>
