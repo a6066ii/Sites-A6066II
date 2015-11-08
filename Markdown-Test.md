@@ -44,7 +44,7 @@ what *about* this?
 
 and ~~this~~?
 
-```node.js
+```node
 var MongoClient = require('mongodb').MongoClient;
 
 MongoClient.connect('mongodb://localhost:27017/course', function(err, db) {
